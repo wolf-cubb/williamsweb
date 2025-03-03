@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+/* you can mess with the background colors here, and anywhere else, just experiment */
   header {
     display: flex;
     justify-content: space-between;
@@ -136,7 +136,7 @@ body {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
-    
+/* this .div1 and .div2 are what u use to align the image and the text, div1 is the image, div2 is the text. */
 .div1 { grid-area: 2 / 2 / 1 / 1; }
 .div2 { grid-area: 1 / 4 / 6 / 6; }
 
